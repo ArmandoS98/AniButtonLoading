@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--My loading button custom attrs-->
+
+    <declare-styleable name="MyLoadingButton">
+
+        <attr name="backgroundColor" format="color" />
+        <attr name="loaderColor" format="color" />
+        <attr name="animationDuration" format="integer" />
+        <attr name="label" format="string" />
+        <attr name="labelSize" format="dimension" />
+        <attr name="labelColor" format="color"/>
+        <attr name="setErrorIcon" format="reference"/>
+        <attr name="setDoneIcon" format="reference"/>
+        <attr name="setNormalAfterError" format="boolean"/>
+
+    </declare-styleable>
+
+
+</resources>
